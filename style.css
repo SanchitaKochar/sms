@@ -130,7 +130,7 @@ text-align: center;
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
   /* For mobile phones: */
    .photo,  .column, .row ,video{
     width: 150%;
