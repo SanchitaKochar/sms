@@ -1,8 +1,4 @@
-body{
-  @media screen and (max-width:1081px){
-    background-color: pink;
-  }
-}
+
 h1{
   color:midnightblue;
   font-family: sans-serif;
@@ -29,6 +25,7 @@ p{
   font-size: 36px;
 }
 ul {
+
   list-style-type: none;
   float:right;
   position: relative;
@@ -129,4 +126,33 @@ text-align: center;
   color:grey;
   text-transform: uppercase;
   text-align: center;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+   .photo,  .column, .row ,video{
+    width: 150%;
+  }
+  .menu{
+    padding-left: 200px;
+    width: 50%;
+  }
+  img{
+    width: 50%;
+    padding-left:130px;
+  }
+.text{
+  text-align: center;
+  padding-left:170px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+h1{
+  font-size: 25px;
+}
+ul{
+  border: 2px solid black;
+}
 }
