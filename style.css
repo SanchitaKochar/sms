@@ -130,7 +130,7 @@ text-align: center;
 
 
 
-@media only screen and (device-width: 320px) and (device-height : 640px) {
+@media only screen and (device-width: 360px) and (device-height : 640px) {
   /* For mobile phones: */
    .photo,  .column, .row ,video{
     width: 150%;
