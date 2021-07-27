@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8">
+    <title>Complaints</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+<div class="container">
+<form name="complains" action="complaint.php" method="post">
+<h3>Complaints? Let Us Know!</h3>
+<h5>Please fill the below form for your complaints.</h5>
+<label for="filldate">Date Of Filling The Form :<br><br><input type="date" id="sdate" name="sdate"</input><br><br>
+<label for="cname">Complainant's Name :<br><br> <input type="text" name="cmname" placeholder="Enter your Full Name"></input><br><br>
+<label for="mail">Complainant's E-mail :<br><br> <input type="email" name="cmemail" placeholder="eg : Example@example.com"></input><br><br>
+<label for="subject">Subject :<br> <br><input type="text" name="sub"></input><br><br>
+<label for="msg">Specific Details about the Complaint :<br><br> <textarea id="msg" name="msg"></textarea><br><br>
+<button name="send"> SEND</button>
+</form>
+</div>
+
+</body>
+</html>
